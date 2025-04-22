@@ -1,0 +1,20 @@
+STATIC DIVISION.
+PROGRAM-ID. SkeptiCraps.
+DATE-WRITTEN. 4-20-25.
+DYNAMIC DIVISION.
+SET BAL TO 500.
+FIX MIN TO 10.
+FIX MAX TO 200.
+SET SKIP-1 TO 0.
+SET SKIP-2 TO 0.
+FUNCTION MENU-1.
+	DISPLAY "1. Pass Line Bet".
+	DISPLAY "2. Dont Pass Line Bet".
+	DISPLAY "3.Roll the Dice".
+	PROMPT CHOICE WITH "Your Choice".
+FUNCTION MENU-2.
+	DISPLAY "1. Come Line Bet".
+	DISPLAY "2. Dont Come Line Bet".
+	DISPLAY "3.Roll the Dice".
+	PROMPT CHOICE WITH "Your Choice".
+
